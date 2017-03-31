@@ -20,15 +20,15 @@ each individual feature.  This was done to create a tidy dataset that better fac
 ##For further information on the run_analysis.R script please see the README.md file in this repository
 
 
-Variable Names/Description:
-subjectid        - ID of the subject who performed the activity                                    
-					- values: 1 through 30
+##Variable Names/Description:
+* subjectid        - ID of the subject who performed the activity                                    
+	values: 1 through 30
 					
-activityname     - name of the activity that was performed                                         
-					- values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
+* activityname     - name of the activity that was performed                                         
+	values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
 					
-feature          - one of 66 mean and standard deviation features extracted from the source data   
-					- values: a list of all 66 extracted features is below starting on row 70
+* feature          - one of 66 mean and standard deviation features extracted from the source data   
+	values: a list of all 66 extracted features is below starting on row 70
 					
 featurevalue     - value extracted from the source dataset for the corresponding feature variable
 
