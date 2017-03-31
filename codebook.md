@@ -40,7 +40,7 @@ each individual feature.  This was done to create a tidy dataset that better fac
 	This feature average is repeated in the featureaverage column for each record (row) for this particular feature
 
 
-##Structure of tidydata dataset:
+## Structure of tidydata dataset:
 
 <pre><code>
 Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
@@ -54,7 +54,8 @@ Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
  </code></pre>
  
  
-Summary of tidydata dataset:
+## Summary of tidydata dataset:
+<pre><code>
   subjectid                  activityname                 feature        featurevalue      featureaverage    
  25     : 26994   LAYING            :128304   tBodyAcc-mean()-X: 10299   Min.   :-1.00000   Min.   :-0.99767  
  21     : 26928   SITTING           :117282   tBodyAcc-mean()-Y: 10299   1st Qu.:-0.98122   1st Qu.:-0.96634  
@@ -63,14 +64,14 @@ Summary of tidydata dataset:
  28     : 25212   WALKING_DOWNSTAIRS: 92796   tBodyAcc-std()-Y : 10299   3rd Qu.:-0.09971   3rd Qu.:-0.09382  
  24     : 25146   WALKING_UPSTAIRS  :101904   tBodyAcc-std()-Z : 10299   Max.   : 1.00000   Max.   : 0.97451  
  (Other):524304                               (Other)          :617940                                        
-
+ </code></pre>
  
-Tidy dataset Output:
-Full output of the tidydata dataset produced from the run_analysis.R script can be found in this repository in the csv file called humanactivityrecognition.csv
-This file can be easily read back into the Rconsole using read.csv with default settings
+## Tidy dataset Output:
+* Full output of the tidydata dataset produced from the run_analysis.R script can be found in this repository in the csv file called humanactivityrecognition.csv
+* This file can be easily read back into the Rconsole using read.csv with default settings
 
 
-List of source features extracted from the reference dataset that make up the feature variable described in the variable list above:
+## List of source features extracted from the reference dataset that make up the feature variable described in the variable list above:
 tBodyGyroJerkMag-mean()
 tBodyGyroJerkMag-std()
 tBodyGyroJerk-mean()-X
