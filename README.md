@@ -1,22 +1,23 @@
-Files included in this repository:
-README.md                    - Summarizes files in repository and gives overview of run_analysis.R script
-project_instructions.md      - original instructions provided for this project
-codebook.md                  - describes tidy dataset that is created and output by run_analysis.R
-run_analysis.R               - R script that performs the assigned analysis on the provided source dataset
-week4project.zip             - Source dataset as downloaded by run_analysis.R
-humanactivityrecognition.csv - tidy dataset output by run_analysis.R script
+# README.md
+
+## Files included in this repository:
+* README.md                    - Summarizes files in repository and gives overview of run_analysis.R script
+* project_instructions.md      - original instructions provided for this project
+* codebook.md                  - describes tidy dataset that is created and output by run_analysis.R
+* run_analysis.R               - R script that performs the assigned analysis on the provided source dataset
+* week4project.zip             - Source dataset as downloaded by run_analysis.R
+* humanactivityrecognition.csv - tidy dataset output by run_analysis.R script
 
 
-run_analysis.R script overview:
+## run_analysis.R script overview:
+### Required R Packages:
+* dplyr
+* data.table
 
-Required R Packages:
-dplyr
-data.table
+### Input:
+* homedir - name of the directory where the analysis is to be stored. Default value is the current working directory.
 
-Input:
-homedir - name of the directory where the analysis is to be stored. Default value is the current working directory.
-
-Summary of Script Actions:
+### Summary of Script Actions:
 1.  Download zipped dataset from provided link (see project_instructions.md) and unzip to directory provided by input
 2.  Extract necessary data tables from the source data
 3.  Bind test activity labels and subject IDs to test dataset. Repeat same for train dataset
