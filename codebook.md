@@ -1,4 +1,4 @@
-Codebook.md
+#Codebook.md
 
 
 * This codebook describes the tidydata dataset produced by running the run_analysis.R script on the Human Activity Recognition Using Smartphones Data Set source dataset
@@ -30,17 +30,17 @@ each individual feature.  This was done to create a tidy dataset that better fac
 * feature          - one of 66 mean and standard deviation features extracted from the source data   
 	values: a list of all 66 extracted features is below starting on row 70
 					
-featurevalue     - value extracted from the source dataset for the corresponding feature variable
+* featurevalue     - value extracted from the source dataset for the corresponding feature variable
 
-featureaverage   - calculated average of each feature for each activity for each subject
-					- Example from dataset:  
-						Subject 1, activity: LAYING, Feature: tBodyAcc-mean()-X
-						There are 50 readings of this feature for this activity for this subject.  
-						The mean of all 50 readings is taken to get the featureaverage for this variable for this activity for this subject
-						This feature average is repeated in the featureaverage column for each record (row) for this particular feature
+* featureaverage   - calculated average of each feature for each activity for each subject
+	** Example from dataset:  
+	Subject 1, activity: LAYING, Feature: tBodyAcc-mean()-X
+	There are 50 readings of this feature for this activity for this subject.  
+	The mean of all 50 readings is taken to get the featureaverage for this variable for this activity for this subject
+	This feature average is repeated in the featureaverage column for each record (row) for this particular feature
 
 
-Structure of tidydata dataset:
+##Structure of tidydata dataset:
 Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
  $ subjectid     : Factor w/ 30 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
  $ activityname  : Factor w/ 6 levels "LAYING","SITTING",..: 1 1 1 1 1 1 1 1 1 1 ...
