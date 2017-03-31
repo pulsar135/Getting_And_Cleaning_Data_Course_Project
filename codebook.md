@@ -1,4 +1,4 @@
-#Codebook.md
+# Codebook.md
 
 
 * This codebook describes the tidydata dataset produced by running the run_analysis.R script on the Human Activity Recognition Using Smartphones Data Set source dataset
@@ -10,17 +10,17 @@ were considered to be beyond the basic scope of this analysis and were therefore
 each individual feature.  This was done to create a tidy dataset that better facilitated calculating the featureaverage variable listed below.
 
 
-##For further information on the source data please see:
+## For further information on the source data please see:
 * Site where original data was obtained:
 	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 * Dataset used for this project (particularly features_info.txt and README.txt for full descriptions of the features included in tidydata):
 	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-##For further information on the run_analysis.R script please see the README.md file in this repository
+## For further information on the run_analysis.R script please see the README.md file in this repository
 
 
-##Variable Names/Description:
+## Variable Names/Description:
 * subjectid        - ID of the subject who performed the activity                                    
 	** values: 1 through 30
 					
@@ -28,7 +28,7 @@ each individual feature.  This was done to create a tidy dataset that better fac
 	** values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
 					
 * feature          - one of 66 mean and standard deviation features extracted from the source data   
-	values: a list of all 66 extracted features is below starting on row 70
+	** values: a list of all 66 extracted features is below starting on row 70
 					
 * featurevalue     - value extracted from the source dataset for the corresponding feature variable
 
@@ -41,6 +41,8 @@ each individual feature.  This was done to create a tidy dataset that better fac
 
 
 ##Structure of tidydata dataset:
+
+<pre><code>
 Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
  $ subjectid     : Factor w/ 30 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
  $ activityname  : Factor w/ 6 levels "LAYING","SITTING",..: 1 1 1 1 1 1 1 1 1 1 ...
@@ -49,6 +51,7 @@ Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
  $ featureaverage: num  0.222 0.222 0.222 0.222 0.222 ...
  - attr(*, ".internal.selfref")=<externalptr> 
  - attr(*, "sorted")= chr  "subjectid" "activityname" "feature"
+ </code></pre>
  
  
 Summary of tidydata dataset:
