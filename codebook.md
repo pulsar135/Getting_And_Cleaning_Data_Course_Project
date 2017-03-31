@@ -17,7 +17,8 @@ each individual feature.  This was done to create a tidy dataset that better fac
 	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-## For further information on the run_analysis.R script please see the README.md file in this repository
+## For further information on the run_analysis.R script please see:
+* README.md file in this repository
 
 
 ## Variable Names/Description:
@@ -72,69 +73,69 @@ Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
 
 
 ## List of source features extracted from the reference dataset that make up the feature variable described in the variable list above:
-tBodyGyroJerkMag-mean()
-tBodyGyroJerkMag-std()
-tBodyGyroJerk-mean()-X
-tBodyGyroJerk-mean()-Y
-tBodyGyroJerk-mean()-Z
-tBodyGyroJerk-std()-X
-tBodyGyroJerk-std()-Y
-tBodyGyroJerk-std()-Z
-tBodyGyroMag-mean()
-tBodyGyroMag-std()
-tBodyGyro-mean()-X
-tBodyGyro-mean()-Y
-tBodyGyro-mean()-Z
-tBodyGyro-std()-X
-tBodyGyro-std()-Y
-tBodyGyro-std()-Z
-tBodyAccJerkMag-mean()
-tBodyAccJerkMag-std()
-tBodyAccJerk-mean()-X
-tBodyAccJerk-mean()-Y
-tBodyAccJerk-mean()-Z
-tBodyAccJerk-std()-X
-tBodyAccJerk-std()-Y
-tBodyAccJerk-std()-Z
-tBodyAccMag-mean()
-tBodyAccMag-std()
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z
-tBodyAcc-std()-X
-tBodyAcc-std()-Y
-tBodyAcc-std()-Z
-tGravityAccMag-mean()
-tGravityAccMag-std()
-tGravityAcc-mean()-X
-tGravityAcc-mean()-Y
-tGravityAcc-mean()-Z
-tGravityAcc-std()-X
-tGravityAcc-std()-Y
-tGravityAcc-std()-Z
-fBodyBodyGyroJerkMag-mean()
-fBodyBodyGyroJerkMag-std()
-fBodyBodyGyroMag-mean()
-fBodyBodyGyroMag-std()
-fBodyGyro-mean()-X
-fBodyGyro-mean()-Y
-fBodyGyro-mean()-Z
-fBodyGyro-std()-X
-fBodyGyro-std()-Y
-fBodyGyro-std()-Z
-fBodyBodyAccJerkMag-mean()
-fBodyBodyAccJerkMag-std()
-fBodyAccJerk-mean()-X
-fBodyAccJerk-mean()-Y
-fBodyAccJerk-mean()-Z
-fBodyAccJerk-std()-X
-fBodyAccJerk-std()-Y
-fBodyAccJerk-std()-Z
-fBodyAccMag-mean()
-fBodyAccMag-std()
-fBodyAcc-mean()-X
-fBodyAcc-mean()-Y
-fBodyAcc-mean()-Z
-fBodyAcc-std()-X
-fBodyAcc-std()-Y
-fBodyAcc-std()-Z
+* tBodyGyroJerkMag-mean()
+* tBodyGyroJerkMag-std()
+* tBodyGyroJerk-mean()-X
+* tBodyGyroJerk-mean()-Y
+* tBodyGyroJerk-mean()-Z
+* tBodyGyroJerk-std()-X
+* tBodyGyroJerk-std()-Y
+* tBodyGyroJerk-std()-Z
+* tBodyGyroMag-mean()
+* tBodyGyroMag-std()
+* tBodyGyro-mean()-X
+* tBodyGyro-mean()-Y
+* tBodyGyro-mean()-Z
+* tBodyGyro-std()-X
+* tBodyGyro-std()-Y
+* tBodyGyro-std()-Z
+* tBodyAccJerkMag-mean()
+* tBodyAccJerkMag-std()
+* tBodyAccJerk-mean()-X
+* tBodyAccJerk-mean()-Y
+* tBodyAccJerk-mean()-Z
+* tBodyAccJerk-std()-X
+* tBodyAccJerk-std()-Y
+* tBodyAccJerk-std()-Z
+* tBodyAccMag-mean()
+* tBodyAccMag-std()
+* tBodyAcc-mean()-X
+* tBodyAcc-mean()-Y
+* tBodyAcc-mean()-Z
+* tBodyAcc-std()-X
+* tBodyAcc-std()-Y
+* tBodyAcc-std()-Z
+* tGravityAccMag-mean()
+* tGravityAccMag-std()
+* tGravityAcc-mean()-X
+* tGravityAcc-mean()-Y
+* tGravityAcc-mean()-Z
+* tGravityAcc-std()-X
+* tGravityAcc-std()-Y
+* tGravityAcc-std()-Z
+* fBodyBodyGyroJerkMag-mean()
+* fBodyBodyGyroJerkMag-std()
+* fBodyBodyGyroMag-mean()
+* fBodyBodyGyroMag-std()
+* fBodyGyro-mean()-X
+* fBodyGyro-mean()-Y
+* fBodyGyro-mean()-Z
+* fBodyGyro-std()-X
+* fBodyGyro-std()-Y
+* fBodyGyro-std()-Z
+* fBodyBodyAccJerkMag-mean()
+* fBodyBodyAccJerkMag-std()
+* fBodyAccJerk-mean()-X
+* fBodyAccJerk-mean()-Y
+* fBodyAccJerk-mean()-Z
+* fBodyAccJerk-std()-X
+* fBodyAccJerk-std()-Y
+* fBodyAccJerk-std()-Z
+* fBodyAccMag-mean()
+* fBodyAccMag-std()
+* fBodyAcc-mean()-X
+* fBodyAcc-mean()-Y
+* fBodyAcc-mean()-Z
+* fBodyAcc-std()-X
+* fBodyAcc-std()-Y
+* fBodyAcc-std()-Z
