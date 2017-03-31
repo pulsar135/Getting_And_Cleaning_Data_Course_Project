@@ -22,10 +22,10 @@ each individual feature.  This was done to create a tidy dataset that better fac
 
 ##Variable Names/Description:
 * subjectid        - ID of the subject who performed the activity                                    
-	values: 1 through 30
+	** values: 1 through 30
 					
 * activityname     - name of the activity that was performed                                         
-	values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
+	** values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
 					
 * feature          - one of 66 mean and standard deviation features extracted from the source data   
 	values: a list of all 66 extracted features is below starting on row 70
