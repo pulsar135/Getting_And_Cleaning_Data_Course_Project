@@ -35,10 +35,10 @@ each individual feature.  This was done to create a tidy dataset that better fac
 
 * featureaverage   - calculated average of each feature for each activity for each subject
 	- Example from dataset:  
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Subject 1, activity: LAYING, Feature: tBodyAcc-mean()-X
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are 50 readings of this feature for this activity for this subject.  
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The mean of all 50 readings is taken to get the featureaverage for this variable for this 						activity for this subject
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This feature average is repeated in the featureaverage column for each record (row) for this 						particular feature
+		+ Subject 1, activity: LAYING, Feature: tBodyAcc-mean()-X
+		+ There are 50 readings of this feature for this activity for this subject.  
+		+ The mean of all 50 readings is taken to get the featureaverage for this variable for this activity for this subject
+		+ This feature average is repeated in the featureaverage column for each record (row) for this particular feature
 
 
 ## Structure of tidydata dataset:
