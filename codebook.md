@@ -11,10 +11,10 @@ each individual feature.  This was done to create a tidy dataset that better fac
 
 
 ##For further information on the source data please see:
-	* Site where original data was obtained:
-		http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-	* Dataset used for this project (particularly features_info.txt and README.txt for full descriptions of the features included in tidydata):
-		https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* Site where original data was obtained:
+	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* Dataset used for this project (particularly features_info.txt and README.txt for full descriptions of the features included in tidydata):
+	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 ##For further information on the run_analysis.R script please see the README.md file in this repository
