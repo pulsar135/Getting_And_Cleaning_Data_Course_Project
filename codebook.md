@@ -10,14 +10,14 @@ were considered to be beyond the basic scope of this analysis and were therefore
 each individual feature.  This was done to create a tidy dataset that better facilitated calculating the featureaverage variable listed below.
 
 
-For further information on the source data please see:
-	- Site where original data was obtained:
+##For further information on the source data please see:
+	* Site where original data was obtained:
 		http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-	- Dataset used for this project (particularly features_info.txt and README.txt for full descriptions of the features included in tidydata):
+	* Dataset used for this project (particularly features_info.txt and README.txt for full descriptions of the features included in tidydata):
 		https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-For further information on the run_analysis.R script please see the README.md file in this repository
+##For further information on the run_analysis.R script please see the README.md file in this repository
 
 
 Variable Names/Description:
