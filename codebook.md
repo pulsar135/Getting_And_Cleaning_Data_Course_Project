@@ -23,22 +23,22 @@ each individual feature.  This was done to create a tidy dataset that better fac
 
 ## Variable Names/Description:
 * subjectid        - ID of the subject who performed the activity                                    
-	** values: 1 through 30
+	- values: 1 through 30
 					
 * activityname     - name of the activity that was performed                                         
-	** values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
+	- values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
 					
 * feature          - one of 66 mean and standard deviation features extracted from the source data   
-	** values: a list of all 66 extracted features is below starting on row 70
+	- values: a list of all 66 extracted features is below starting on row 70
 					
 * featurevalue     - value extracted from the source dataset for the corresponding feature variable
 
 * featureaverage   - calculated average of each feature for each activity for each subject
-	** Example from dataset:  
-	Subject 1, activity: LAYING, Feature: tBodyAcc-mean()-X
-	There are 50 readings of this feature for this activity for this subject.  
-	The mean of all 50 readings is taken to get the featureaverage for this variable for this activity for this subject
-	This feature average is repeated in the featureaverage column for each record (row) for this particular feature
+	- Example from dataset:  
+		Subject 1, activity: LAYING, Feature: tBodyAcc-mean()-X
+		There are 50 readings of this feature for this activity for this subject.  
+		The mean of all 50 readings is taken to get the featureaverage for this variable for this activity for this subject
+		This feature average is repeated in the featureaverage column for each record (row) for this particular feature
 
 
 ## Structure of tidydata dataset:
