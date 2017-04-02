@@ -7,6 +7,7 @@
 * run_analysis.R               - R script that performs the assigned analysis on the provided source dataset
 * week4project.zip             - Source dataset as downloaded by run_analysis.R
 * humanactivityrecognition.txt - A txt file of the tidy dataset output by run_analysis.R script
+* humanactivityrecognition.csv - A csv file of the tidy dataset output by run_analysis.R script
 
 
 ## run_analysis.R script overview:
