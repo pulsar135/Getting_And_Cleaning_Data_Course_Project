@@ -6,7 +6,7 @@
 * codebook.md                  - describes tidy dataset that is created and output by run_analysis.R
 * run_analysis.R               - R script that performs the assigned analysis on the provided source dataset
 * week4project.zip             - Source dataset as downloaded by run_analysis.R
-* humanactivityrecognition.csv - tidy dataset output by run_analysis.R script
+* humanactivityrecognition.txt - A txt file of the tidy dataset output by run_analysis.R script
 
 
 ## run_analysis.R script overview:
@@ -28,4 +28,4 @@
 7.  Melt full dataset and reshape into tall (instead of wide) table format to create tidy dataset
 8.  Add column to table that calculates the average of each variable for each activity for each subject
 9.  Assign this dataset as a new tidy dataset
-10. Write new tidy dataset to a csv file named humanactivityrecognition.csv
+10. Write new tidy dataset to a txt file named humanactivityrecognition.txt 
