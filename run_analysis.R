@@ -116,8 +116,8 @@ run_analysis<-function(homedir=getwd()) {
       tidydata <- xfullmelt
       
       #This command for csv file
-      write.table(tidydata, file = "humanactivityrecognition.csv", quote = FALSE, sep = ",", row.names = FALSE, qmethod = "double")
+      #write.table(tidydata, file = "humanactivityrecognition.csv", quote = FALSE, sep = ",", row.names = FALSE, qmethod = "double")
       
       #This command for txt file
-      #write.table(tidydata, file = "humanactivityrecognition.txt", quote = FALSE, sep = ",", row.names = FALSE)
+      write.table(tidydata, file = "humanactivityrecognition.txt", quote = FALSE, sep = ",", row.names = FALSE)
 }
