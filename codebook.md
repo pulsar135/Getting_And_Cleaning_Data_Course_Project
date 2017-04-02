@@ -29,7 +29,7 @@ each individual feature.  This was done to create a tidy dataset that better fac
 	- values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
 					
 * feature          - one of 66 mean and standard deviation features extracted from the source data   
-	- values: a list of all 66 extracted features is below starting on row 70
+	- values: a list of all 66 extracted features is below
 					
 * featurevalue     - value extracted from the source dataset for the corresponding feature variable
 
