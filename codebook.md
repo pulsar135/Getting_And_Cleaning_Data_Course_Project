@@ -6,8 +6,7 @@
 * Only mean() and std() measurements were extracted.  
 * Some other mean measurements (meanFreq(), gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean) 
 were considered to be beyond the basic scope of this analysis and were therefore not extracted
-* The extracted data is then reshaped so that each of the extracted features is listed in one column under a variable called feature and each row is a single record of
-each individual feature.  This was done to create a tidy dataset that better facilitated calculating the featureaverage variable listed below.
+* The extracted data is then reshaped so that each of the extracted features is listed in one column under a variable called feature and each row is a single record of each individual feature.  This was done to create a tidy dataset that better facilitated calculating the featureaverage variable listed below.
 
 
 ## For further information on the source data please see:
@@ -69,7 +68,7 @@ Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
  
 ## Tidy dataset Output:
 * Full output of the tidydata dataset produced from the run_analysis.R script can be found in this repository in the csv file called humanactivityrecognition.csv
-* This file can be easily read back into the Rconsole using read.csv with default settings
+* This file can be easily read back into the Rconsole using read.table with settings: header = TRUE, sep = ","
 
 
 ## List of source features extracted from the reference dataset that make up the feature variable described in the variable list above:
