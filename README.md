@@ -28,4 +28,4 @@
 7.  Melt full dataset and reshape into tall (instead of wide) table format to create tidy dataset
 8.  Add column to table that calculates the average of each variable for each activity for each subject
 9.  Assign this dataset as a new tidy dataset
-10. Write new tidy dataset to a csv file named humanactivityrecognition.csv# Getting_And_Cleaning_Data_Course_Project
+10. Write new tidy dataset to a csv file named humanactivityrecognition.csv
