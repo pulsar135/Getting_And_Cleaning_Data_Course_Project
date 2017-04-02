@@ -28,7 +28,7 @@ were considered to be beyond the basic scope of this analysis and were therefore
 	- values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
 					
 * feature          - one of 66 mean and standard deviation features extracted from the source data   
-	- values: a list of all 66 extracted features is below
+	- values: a list of all 66 features extracted from the source data is below
 					
 * featurevalue     - value extracted from the source dataset for the corresponding feature variable
 

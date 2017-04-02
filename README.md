@@ -23,7 +23,7 @@
 2.  Extract necessary data tables from the source data
 3.  Bind test activity labels and subject IDs to test dataset. Repeat same for train dataset
 3.  Bind the test and train datasets to create a single dataset
-4.  Replace non-descriptive variable names with descriptive variable names for the variables of interest
+4.  Replace default non-descriptive variable names (i.e. V1, V2, etc...) with descriptive variable names (from the source dataset) for the variables of interest
 5.  Remove undesired variables from full dataset
 6.  Merge full dataset with activity labels dataset to get descriptive activity names
 7.  Melt full dataset and reshape into tall (instead of wide) table format to create tidy dataset

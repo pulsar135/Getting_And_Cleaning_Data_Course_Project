@@ -112,8 +112,14 @@ run_analysis<-function(homedir=getwd()) {
       xfullmelt <- xfullmelt[, featureaverage:= mean(featurevalue), by=key(xfullmelt)]
       
       
-      #Assign new tidy dataset to a data table and write to a csv or txt file
-      tidydata <- xfullmelt
+      #Assign new tidy dataset to a data table and limit results to include only
+      #the feature average values
+      tidydata <- copy(xfullmelt)
+      tidydata <- select(tidydata, -4)
+      tidydata <- unique(tidydata, by = key(tidydata))
+      
+      
+      #Write tidy dataset to a csv or txt file
       
       #This command for csv file
       #write.table(tidydata, file = "humanactivityrecognition.csv", quote = FALSE, sep = ",", row.names = FALSE, qmethod = "double")
