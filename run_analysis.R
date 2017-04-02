@@ -1,6 +1,6 @@
 #This function requires loading the dplyr and data.table packages
-#This function takes as input the home directory location of the unzipped dataset
-#from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#This function takes as input the home directory location where the datasets
+#(both source and output) will be stored
 #The function merges the training and test datasets, extracts the mean and
 #and standard deviation for each measurement and writes to a file a tidy dataset
 #that includes the average of each variable for each activity and subject
