@@ -68,9 +68,10 @@ Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
  
 ## Tidy dataset Output:
 * Full output of the tidydata dataset produced from the run_analysis.R script can be found in this repository in the txt file called humanactivityrecognition.txt
-* This file can be easily read back into the Rconsole using read.table with settings: 
-	- header = TRUE
-	- sep = ","
+* This file can be easily read back into the Rconsole using: 
+	- read.table for txt file with settings: 
+		+ header = TRUE
+	- read.csv for csv file with default settings
 
 
 ## List of source features extracted from the reference dataset that make up the feature variable described in the variable list above:

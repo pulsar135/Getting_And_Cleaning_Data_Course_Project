@@ -119,5 +119,5 @@ run_analysis<-function(homedir=getwd()) {
       #write.table(tidydata, file = "humanactivityrecognition.csv", quote = FALSE, sep = ",", row.names = FALSE, qmethod = "double")
       
       #This command for txt file
-      write.table(tidydata, file = "humanactivityrecognition.txt", quote = FALSE, sep = ",", row.names = FALSE)
+      write.table(tidydata, file = "humanactivityrecognition.txt", row.names = FALSE)
 }
