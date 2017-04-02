@@ -29,26 +29,22 @@ were considered to be beyond the basic scope of this analysis and were therefore
 					
 * feature          - one of 66 mean and standard deviation features extracted from the source data   
 	- values: a list of all 66 features extracted from the source data is below
-					
-* featurevalue     - value extracted from the source dataset for the corresponding feature variable
 
 * featureaverage   - calculated average of each feature for each activity for each subject
 	- Example from dataset:  
 		+ Subject 1, activity: LAYING, Feature: tBodyAcc-mean()-X
 		+ There are 50 readings of this feature for this activity for this subject.  
 		+ The mean of all 50 readings is taken to get the featureaverage for this variable for this activity for this subject
-		+ This feature average is repeated in the featureaverage column for each record (row) for this particular feature
 
 
 ## Structure of tidydata dataset:
 
 <pre><code>
-Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
+Classes ‘data.table’ and 'data.frame':	11880 obs. of  4 variables:
  $ subjectid     : Factor w/ 30 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
  $ activityname  : Factor w/ 6 levels "LAYING","SITTING",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ feature       : Factor w/ 66 levels "tBodyAcc-mean()-X",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ featurevalue  : num  0.403 0.278 0.277 0.28 0.277 ...
- $ featureaverage: num  0.222 0.222 0.222 0.222 0.222 ...
+ $ feature       : Factor w/ 66 levels "tBodyAcc-mean()-X",..: 1 2 3 4 5 6 7 8 9 10 ...
+ $ featureaverage: num  0.2216 -0.0405 -0.1132 -0.9281 -0.8368 ...
  - attr(*, ".internal.selfref")=<externalptr> 
  - attr(*, "sorted")= chr  "subjectid" "activityname" "feature"
  </code></pre>
@@ -56,14 +52,14 @@ Classes ‘data.table’ and 'data.frame':	679734 obs. of  5 variables:
  
 ## Summary of tidydata dataset:
 <pre><code>
-  subjectid                  activityname                 feature        featurevalue      featureaverage    
- 25     : 26994   LAYING            :128304   tBodyAcc-mean()-X: 10299   Min.   :-1.00000   Min.   :-0.99767  
- 21     : 26928   SITTING           :117282   tBodyAcc-mean()-Y: 10299   1st Qu.:-0.98122   1st Qu.:-0.96634  
- 26     : 25872   STANDING          :125796   tBodyAcc-mean()-Z: 10299   Median :-0.55219   Median :-0.53043  
- 30     : 25278   WALKING           :113652   tBodyAcc-std()-X : 10299   Mean   :-0.51134   Mean   :-0.51134  
- 28     : 25212   WALKING_DOWNSTAIRS: 92796   tBodyAcc-std()-Y : 10299   3rd Qu.:-0.09971   3rd Qu.:-0.09382  
- 24     : 25146   WALKING_UPSTAIRS  :101904   tBodyAcc-std()-Z : 10299   Max.   : 1.00000   Max.   : 0.97451  
- (Other):524304                               (Other)          :617940                                        
+   subjectid                activityname               feature      featureaverage    
+ 1      : 396   LAYING            :1980   tBodyAcc-mean()-X:  180   Min.   :-0.99767  
+ 2      : 396   SITTING           :1980   tBodyAcc-mean()-Y:  180   1st Qu.:-0.96205  
+ 3      : 396   STANDING          :1980   tBodyAcc-mean()-Z:  180   Median :-0.46989  
+ 4      : 396   WALKING           :1980   tBodyAcc-std()-X :  180   Mean   :-0.48436  
+ 5      : 396   WALKING_DOWNSTAIRS:1980   tBodyAcc-std()-Y :  180   3rd Qu.:-0.07836  
+ 6      : 396   WALKING_UPSTAIRS  :1980   tBodyAcc-std()-Z :  180   Max.   : 0.97451  
+ (Other):9504                             (Other)          :10800                                             
  </code></pre>
  
 ## Tidy dataset Output:
